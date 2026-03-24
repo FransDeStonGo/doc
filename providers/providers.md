@@ -26,7 +26,9 @@ providers/
 ├── providers.md        # Этот файл — навигация
 ├── openrouter.md       # Агрегатор: единый API для всех моделей (приоритет)
 ├── anthropic.md        # Прямой доступ к Claude API
-└── openai.md           # Прямой доступ к GPT / o-серии
+├── openai.md           # Прямой доступ к GPT / o-серии
+├── google.md           # Vertex AI / Gemini API — 1M контекст, multimodal, GCP
+└── groq.md             # Groq — быстрый inference (LPU), низкая latency
 ```
 
 ## Topics
@@ -37,10 +39,8 @@ providers/
 - **[Anthropic API](anthropic.md)** — прямой доступ к Claude: Batch API (50% скидка), Prompt Caching, Extended Thinking
 - **[OpenAI API](openai.md)** — GPT-4o, o-серия, Structured Outputs, Assistants API
 
-### В планах
-
-- **Google Vertex AI** — доступ к Gemini через GCP
-- **Groq** — быстрый inference (Llama, Mixtral), низкая латентность
+- **[Google Vertex AI](google.md)** — Gemini через GCP или AI Studio: 1M контекст, Search grounding, multimodal
+- **[Groq](groq.md)** — быстрый inference на LPU: 500-2000 tok/s, Llama, Mixtral, низкая латентность
 
 ## When to Use What
 

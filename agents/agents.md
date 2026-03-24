@@ -1,7 +1,7 @@
 ---
 type: nav
 tags: [agents, architecture, tool-use, memory, planning, multi-agent, permissions, workflows]
-status: draft
+status: complete
 updated: 2026-03-24
 ---
 
@@ -18,7 +18,13 @@ agents/
 ├── agents.md           # Этот файл — навигация по разделу
 ├── what-is-agent.md    # Что такое агент: agent vs workflow, augmented LLM, принципы
 ├── workflows.md        # 5 паттернов workflow по Anthropic
-└── ...                 # Будущие документы по конкретным темам
+├── tool-use.md         # Механизм tool use: структура, цикл вызова, best practices
+├── memory.md           # 4 типа памяти: in-context, external, in-weights, in-cache
+├── planning.md         # ReAct, CoT, Extended Thinking, Interleaved Thinking
+├── multi-agent.md      # Multi-agent: роли, изоляция контекста, оркестрация
+├── permissions.md      # Безопасность: least privilege, blast radius, human-in-the-loop
+├── evaluation.md       # Оценка качества агентных систем, eval frameworks
+└── observability.md    # Наблюдаемость: трассировка, метрики, Langfuse, Phoenix
 ```
 
 ## Topics
@@ -30,3 +36,5 @@ agents/
 - **[Planning](planning.md)** — ReAct, CoT, Extended Thinking, Interleaved Thinking
 - **[Multi-Agent](multi-agent.md)** — роли, изоляция контекста, паттерны оркестрации
 - **[Permissions](permissions.md)** — least privilege, blast radius, human-in-the-loop, stopping conditions
+- **[Evaluation](evaluation.md)** — оценка качества: unit evals, e2e, LLM-judge, инструменты (Braintrust, LangSmith, PromptFoo)
+- **[Observability](observability.md)** — наблюдаемость: traces, spans, метрики стоимости, Langfuse, Phoenix, OpenTelemetry

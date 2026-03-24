@@ -1,7 +1,7 @@
 ---
 type: nav
 tags: [mcp, protocol, servers, tools, integration, claude-code]
-status: draft
+status: complete
 updated: 2026-03-24
 ---
 
@@ -18,7 +18,8 @@ mcp/
 ├── mcp.md              # Этот файл — навигация по разделу
 ├── protocol.md         # Архитектура MCP: host/client/server, primitives, lifecycle
 ├── servers.md          # Каталог серверов: референс, официальные, комьюнити
-└── configuration.md    # Настройка в Claude Code: settings.json, stdio, HTTP
+├── configuration.md    # Настройка в Claude Code: settings.json, stdio, HTTP
+└── custom-server.md    # Как написать собственный MCP-сервер на Python/TypeScript
 ```
 
 ## Topics
@@ -28,5 +29,4 @@ mcp/
 - **[Servers](servers.md)** — каталог готовых серверов: референс от MCP-команды, официальные интеграции, комьюнити
 - **[Configuration](configuration.md)** — подключение серверов к Claude Code через `settings.json`
 
-### В планах
-- **Custom Servers** — как написать собственный MCP-сервер на Python/TypeScript
+- **[Custom Servers](custom-server.md)** — как написать собственный MCP-сервер: MCP SDK для Python и TypeScript, минимальный пример с tool
