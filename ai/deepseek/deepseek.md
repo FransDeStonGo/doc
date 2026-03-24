@@ -1,3 +1,14 @@
+---
+type: reference
+tags: [deepseek, reasoning, open-source, cheap, moe, chinese]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/qwen/qwen.md
+  - ai/meta/meta.md
+---
+
 # DeepSeek
 
 ## Overview

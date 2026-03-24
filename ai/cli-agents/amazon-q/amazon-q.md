@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, amazon-q, aws, enterprise, iac, code-transformation]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # Amazon Q Developer
 
 ## Overview

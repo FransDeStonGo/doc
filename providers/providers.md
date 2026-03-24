@@ -1,3 +1,10 @@
+---
+type: nav
+tags: [providers, api, openrouter, anthropic, openai, google, groq, routing]
+status: complete
+updated: 2026-03-24
+---
+
 # Providers
 
 ## Overview
@@ -19,17 +26,28 @@ providers/
 ├── providers.md        # Этот файл — навигация
 ├── openrouter.md       # Агрегатор: единый API для всех моделей (приоритет)
 ├── anthropic.md        # Прямой доступ к Claude API
-├── openai.md           # Прямой доступ к GPT / o-серии
-├── google.md           # Vertex AI / Google AI Studio
-├── groq.md             # Быстрый inference (Llama, Mixtral) — низкая латентность
-└── ...
+└── openai.md           # Прямой доступ к GPT / o-серии
 ```
+
+## Topics
+
+### Готово
+
+- **[OpenRouter](openrouter.md)** — единый API, маршрутизация, fallback, мониторинг стоимости
+- **[Anthropic API](anthropic.md)** — прямой доступ к Claude: Batch API (50% скидка), Prompt Caching, Extended Thinking
+- **[OpenAI API](openai.md)** — GPT-4o, o-серия, Structured Outputs, Assistants API
+
+### В планах
+
+- **Google Vertex AI** — доступ к Gemini через GCP
+- **Groq** — быстрый inference (Llama, Mixtral), низкая латентность
 
 ## When to Use What
 
 | Сценарий | Провайдер |
 |----------|-----------|
 | Основная работа агента, мультимодельный pipeline | OpenRouter |
-| Нужны батчи, fine-tuning, максимальный лимит | Anthropic / OpenAI напрямую |
+| Batch API, fine-tuning, максимальный лимит Claude | Anthropic напрямую |
+| Assistants API, Batch API GPT, fine-tuning | OpenAI напрямую |
 | Нужна минимальная латентность для Llama | Groq |
 | Enterprise, данные в GCP, Gemini-фичи | Google Vertex AI |

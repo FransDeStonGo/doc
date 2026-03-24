@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [openai, gpt, o-series, models, structured-outputs, function-calling]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/cli-agents/codex-cli/codex-cli.md
+---
+
 # OpenAI
 
 ## Overview

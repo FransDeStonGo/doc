@@ -1,3 +1,14 @@
+---
+type: reference
+tags: [qwen, alibaba, open-source, code, vision, reasoning, chinese]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/deepseek/deepseek.md
+  - ai/cli-agents/qwen-code/qwen-code.md
+---
+
 # Qwen (Alibaba Cloud)
 
 ## Overview

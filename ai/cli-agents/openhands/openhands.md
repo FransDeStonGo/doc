@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, openhands, open-source, sandbox, browser, autonomous, docker]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+  - ai/cli-agents/swe-agent/swe-agent.md
+---
+
 # OpenHands (ex-OpenDevin)
 
 ## Overview

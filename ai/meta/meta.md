@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [meta, llama, open-source, self-hosted, fine-tuning, privacy]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/deepseek/deepseek.md
+---
+
 # Meta — Llama
 
 ## Overview

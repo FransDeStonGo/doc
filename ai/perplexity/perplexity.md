@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [perplexity, sonar, web-search, citations, real-time, research]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+---
+
 # Perplexity AI
 
 ## Overview

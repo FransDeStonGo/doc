@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, opencode, open-source, tui, multi-provider, lsp, go]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+  - ai/cli-agents/aider/aider.md
+---
+
 # opencode
 
 ## Overview

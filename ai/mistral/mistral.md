@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [mistral, codestral, open-source, gdpr, european, function-calling]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+---
+
 # Mistral AI
 
 ## Overview

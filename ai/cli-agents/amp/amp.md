@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, amp, sourcegraph, multi-repo, codebase, enterprise]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # Amp (Sourcegraph)
 
 ## Overview

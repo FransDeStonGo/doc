@@ -1,3 +1,10 @@
+---
+type: nav
+tags: [ai, models, comparison, anthropic, openai, google, meta, mistral, deepseek, qwen, perplexity]
+status: complete
+updated: 2026-03-24
+---
+
 # AI Platforms & Models
 
 ## Overview

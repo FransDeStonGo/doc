@@ -1,3 +1,14 @@
+---
+type: reference
+tags: [cli-agents, qwen-code, alibaba, open-source, claude-code-fork, self-hosted]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/qwen/qwen.md
+  - ai/cli-agents/claude-code/claude-code.md
+  - ai/cli-agents/cli-agents.md
+---
+
 # Qwen Code
 
 ## Overview

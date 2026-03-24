@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, goose, block, open-source, mcp, toolkits, extensible]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+  - mcp/mcp.md
+---
+
 # Goose
 
 ## Overview

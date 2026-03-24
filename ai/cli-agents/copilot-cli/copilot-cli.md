@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, copilot, github, microsoft, shell, terminal]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # GitHub Copilot CLI
 
 ## Overview

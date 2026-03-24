@@ -1,21 +1,41 @@
+---
+type: nav
+tags: [skills, slash-commands, claude-code, automation, prompts]
+status: complete
+updated: 2026-03-24
+---
+
 # Skills — Slash Commands
 
 ## Overview
 
-Skills — это кастомные slash-команды (`/commit`, `/review-pr` и т.д.), расширяющие возможности Claude Code. По сути, файлы с промптами, которые превращают типовые задачи в переиспользуемые мини-агенты. Раздел охватывает создание, структуру и примеры.
+Skills — кастомные slash-команды (`/commit`, `/review-pr` и т.д.), расширяющие возможности Claude Code. Файлы с промптами, которые превращают типовые задачи в переиспользуемые мини-агенты. Поддерживают аргументы, bash injection, subagent execution.
 
 ## Structure
 
 ```
 skills/
 ├── skills.md           # Этот файл — навигация по разделу
-└── ...                 # Будущие документы: шаблоны, примеры конкретных skills
+├── anatomy.md          # Структура skill: SKILL.md, frontmatter, аргументы, subagent
+└── examples.md         # Готовые примеры: commit, review, refactor, deploy, security
 ```
 
 ## Topics
 
-- **Anatomy of a Skill** — структура файла: frontmatter, промпт, аргументы
-- **Built-in Skills** — обзор встроенных команд Claude Code
-- **Custom Skills** — как написать свой skill под задачи команды
-- **Patterns** — паттерны: review, generate, refactor, deploy, report
-- **Examples** — готовые примеры skills для типовых задач
+### Готово
+
+- **[Anatomy](anatomy.md)** — структура SKILL.md, все frontmatter поля, аргументы ($ARGUMENTS), bash injection, subagent execution (context: fork)
+- **[Examples](examples.md)** — готовые skills: commit, review-pr, fix-issue, refactor, docs, deploy, security-review, и другие
+
+### Встроенные skills Claude Code
+
+| Команда | Назначение |
+|---------|-----------|
+| `/batch <instruction>` | Масштабные изменения кодовой базы параллельными агентами |
+| `/debug [description]` | Диагностика текущей сессии Claude Code |
+| `/loop [interval] <prompt>` | Периодическое выполнение промпта |
+| `/simplify [focus]` | Ревью изменённого кода на качество и эффективность |
+
+### В планах
+
+- **Built-in Commands** — полный справочник встроенных `/help`, `/compact`, `/init` и др.

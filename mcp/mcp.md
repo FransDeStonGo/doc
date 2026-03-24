@@ -1,3 +1,10 @@
+---
+type: nav
+tags: [mcp, protocol, servers, tools, integration, claude-code]
+status: draft
+updated: 2026-03-24
+---
+
 # MCP — Model Context Protocol
 
 ## Overview
@@ -9,13 +16,17 @@ Model Context Protocol — открытый стандарт для подклю
 ```
 mcp/
 ├── mcp.md              # Этот файл — навигация по разделу
-└── ...                 # Будущие документы по конкретным серверам и интеграциям
+├── protocol.md         # Архитектура MCP: host/client/server, primitives, lifecycle
+├── servers.md          # Каталог серверов: референс, официальные, комьюнити
+└── configuration.md    # Настройка в Claude Code: settings.json, stdio, HTTP
 ```
 
 ## Topics
 
-- **Protocol** — архитектура MCP: клиент, сервер, транспорт (stdio / SSE), схемы инструментов
-- **Servers** — готовые MCP-серверы: браузер, БД, файловая система, GitHub, Slack и др.
-- **Custom Servers** — как написать собственный MCP-сервер
-- **Configuration** — подключение серверов к Claude Code через `settings.json`
-- **Use Cases** — практические сценарии: доступ к корпоративным API, работа с БД, веб-скрейпинг
+### Готово
+- **[Protocol](protocol.md)** — архитектура: host/client/server, транспорты (stdio/HTTP), primitives (tools/resources/prompts), JSON-RPC lifecycle
+- **[Servers](servers.md)** — каталог готовых серверов: референс от MCP-команды, официальные интеграции, комьюнити
+- **[Configuration](configuration.md)** — подключение серверов к Claude Code через `settings.json`
+
+### В планах
+- **Custom Servers** — как написать собственный MCP-сервер на Python/TypeScript

@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, swe-agent, research, princeton, github-issues, benchmarks, open-source]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+  - ai/cli-agents/openhands/openhands.md
+---
+
 # SWE-agent
 
 ## Overview

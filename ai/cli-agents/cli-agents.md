@@ -1,3 +1,13 @@
+---
+type: comparison
+tags: [cli-agents, comparison, overview, tool-use, open-source]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/cli-agents/claude-code/claude-code.md
+---
+
 # CLI Agents
 
 ## Overview

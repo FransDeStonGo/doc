@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, openclaw, gateway, messaging, whatsapp, telegram, discord, self-hosted]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # OpenClaw
 
 ## Overview

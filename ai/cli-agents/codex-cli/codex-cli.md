@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, codex, openai, open-source, sandbox, composable]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/openai/openai.md
+  - ai/cli-agents/cli-agents.md
+---
+
 # Codex CLI (OpenAI)
 
 ## Overview

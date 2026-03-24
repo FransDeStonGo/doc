@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [google, gemini, long-context, multimodal, vertex-ai, grounding]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/ai.md
+  - ai/cli-agents/gemini-cli/gemini-cli.md
+---
+
 # Google DeepMind — Gemini
 
 ## Overview

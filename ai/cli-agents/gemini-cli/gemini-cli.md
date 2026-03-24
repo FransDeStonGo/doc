@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [cli-agents, gemini-cli, google, long-context, multimodal, open-source, mcp]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/google/google.md
+  - ai/cli-agents/cli-agents.md
+---
+
 # Gemini CLI
 
 ## Overview

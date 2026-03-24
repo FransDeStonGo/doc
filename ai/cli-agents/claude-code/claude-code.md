@@ -1,3 +1,15 @@
+---
+type: reference
+tags: [cli-agents, claude-code, anthropic, hooks, mcp, sub-agents, permissions, memory]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/anthropic/claude/claude.md
+  - ai/cli-agents/cli-agents.md
+  - mcp/mcp.md
+  - skills/skills.md
+---
+
 # Claude Code
 
 ## Overview

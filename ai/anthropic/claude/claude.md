@@ -1,3 +1,15 @@
+---
+type: nav
+tags: [anthropic, claude, claude-code, hooks, memory, mcp, permissions, skills]
+status: stub
+updated: 2026-03-24
+related:
+  - ai/anthropic/anthropic.md
+  - ai/cli-agents/claude-code/claude-code.md
+  - mcp/mcp.md
+  - skills/skills.md
+---
+
 # Claude & Claude Code
 
 ## Overview

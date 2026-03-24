@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, plandex, planning, long-tasks, versioning, rollback, open-source]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # Plandex
 
 ## Overview

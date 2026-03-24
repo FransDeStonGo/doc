@@ -1,3 +1,12 @@
+---
+type: reference
+tags: [cli-agents, aider, open-source, git, multi-model, pair-programming]
+status: complete
+updated: 2026-03-24
+related:
+  - ai/cli-agents/cli-agents.md
+---
+
 # Aider
 
 ## Overview

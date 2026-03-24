@@ -1,3 +1,13 @@
+---
+type: reference
+tags: [anthropic, claude, models, tool-use, safety, ai-safety]
+status: draft
+updated: 2026-03-24
+related:
+  - ai/anthropic/claude/claude.md
+  - ai/ai.md
+---
+
 # Anthropic
 
 ## Overview
