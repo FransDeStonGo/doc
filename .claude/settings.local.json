@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.openclaw.ai)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(find /root/doc -type f \\\\\\( -name \"*.md\" -o -name \"*.json\" -o -name \"*.txt\" \\\\\\) ! -path \"*/.git/*\" ! -path \"*/.git\" -exec wc -l {} +)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:openrouter.ai)",
+      "WebFetch(domain:platform.openai.com)",
+      "Bash(git push:*)",
+      "Bash(git remote:*)",
+      "Bash(grep:*)",
+      "Bash(find /root/doc -name *.md -not -path */.claude/*)"
+    ]
+  }
+}
